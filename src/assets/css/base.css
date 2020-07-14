@@ -1,0 +1,21 @@
+@import './normalize.css';
+
+:root{
+    --textColor: #666;
+    --text-heig-color:#ff5777;
+    --tintColor:#ff8198;
+    --bgColor:#fff;
+    --textSize:14px;
+    --linHeight:1.5;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{list-style: none;}
+a{text-decoration: none;color: var(--textColor);}
+body{font-family: "微软雅黑";color: var(--textColor);background:var(--bgColor) ;}
+
+

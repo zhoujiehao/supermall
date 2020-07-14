@@ -47,6 +47,6 @@ export default {
       margin-top: 1px;
     }
     .acrive{
-        color: #f7999f;
+        color:var(--tintColor);
     }
 </style>

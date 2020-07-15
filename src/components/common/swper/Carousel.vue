@@ -1,8 +1,14 @@
 <template>
 <keep-alive>
     <div class="block">
-        <el-carousel :initial-index=$store.state.ImgIndex arrow='always' height='250px'>
-            <el-carousel-item v-for="item in banners" :key="item['image']" v-loading='loading'>
+        <el-carousel 
+            :initial-index=$store.state.ImgIndex 
+            arrow='always' 
+            height='250px'>
+                <el-carousel-item 
+                    v-for="(item,index) in banners"
+                    :key="index" 
+                    v-loading='loading'>
                  <img class="banners" :src="item['image']" alt="">
             </el-carousel-item>
         </el-carousel>

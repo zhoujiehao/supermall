@@ -28,9 +28,10 @@ export default {
 <style>
 #recommend{
     display: flex;
-    height: 150px;
+    padding-bottom:25px;
+    padding-top: 10px;
     margin-top: 15px;
-    box-shadow: #f8f7f7 0px 10px 5px 4px;
+    box-shadow: #f8f7f7 0px 5px 4px;
 }
 .recom-item{
     width: 20%;
@@ -41,11 +42,11 @@ export default {
 .recom-item h2{
     text-align: center;
     color: #2e2c2c;
-    font-size: 16px;
+    font-size: 15px;
 }
 .recom-img img{
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
 }
 
 </style>
